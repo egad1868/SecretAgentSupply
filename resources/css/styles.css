@@ -37,11 +37,14 @@ header {
 /*Banner styles*/
 .banner {
   height: 25rem;
-  width: auto;
+  width: 960px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-image: image url(./resources/images/moto.jpeg);
+}
+
+.banner img {
+  background-image: url(/resources/images/moto.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -49,7 +52,8 @@ header {
 .announce {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
   width: 20rem;
   height: auto;
   background-color: black;
