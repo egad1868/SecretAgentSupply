@@ -41,9 +41,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin: 0 auto;
+  padding: 0;
 }
 
-.banner img {
+.bannerBG {
   background-image: url(/resources/images/moto.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
