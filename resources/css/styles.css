@@ -9,6 +9,7 @@ body {
 }
 a, .companyName, .title, .announcement {
   color: white;
+  text-decoration: none;
 }
 p {
   margin: 0;
@@ -46,7 +47,7 @@ header {
 }
 
 .bannerBG {
-  background-image: url(/resources/images/moto.jpeg);
+  background-image: url(../images/moto.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -75,3 +76,15 @@ header {
   margin-bottom: 2rem;
 }
 /*Menu styles*/
+nav {
+  width: 960px;
+  padding: 0.75rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navBG {
+  background-color: firebrick;
+  width: 100%;
+}
