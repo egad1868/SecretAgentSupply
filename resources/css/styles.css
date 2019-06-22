@@ -1,4 +1,37 @@
 /*Universal styles*/
 html {
-  font-size: 
+  font-size: 18px;
+}
+body {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+}
+a, h1 {
+  color: white;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 2rem;
+}
+/*Header styles*/
+header {
+  display:flex;
+  justify-content: flex-start;
+  top: 0;
+  position: fixed;
+  width: 60rem;
+  padding: 0.66rem 0;
+  margin: 0 auto;
+}
+.logo {
+  height: 1.5rem;
+  width: auto;
+  margin-left: 0.5rem;
+}
+.companyName {
+  margin-left: 1rem; 
 }
