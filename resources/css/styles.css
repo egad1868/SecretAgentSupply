@@ -100,6 +100,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  padding-top: 3rem;
 }
 
 .products {
@@ -107,7 +108,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 3rem auto;
+  margin: 0 auto;
 }
 
 .product {
@@ -137,7 +138,8 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 0 auto 4rem auto;
+  margin: 0 auto;
+  padding-top: 3rem;
 }
 
 .details {
@@ -158,4 +160,5 @@ footer {
   height: 5rem;
   text-align: left;
   margin: 0 auto;
+  padding-top: 4rem;
 }
