@@ -169,9 +169,11 @@ footer {
   header, .banner, nav, .products, .about, footer {
     width: 100%;
   }
+  nav {
+    justify-content: center;
+  }
   nav span a {
     visibility: hidden;
-
     }
   .menu {
     visibility: visible;
