@@ -18,13 +18,16 @@ p {
   padding: 0;
 }
 
+header, .banner, nav, .products, .about, footer {
+  width: 960px;
+}
+
 /*Header styles*/
 header {
   display:flex;
   justify-content: flex-start;
   align-items: center;
   top: 0;
-  width: 960px;
   padding: 0.66rem 0;
   margin: 0 auto;
 }
@@ -40,7 +43,6 @@ header {
 /*Banner styles*/
 .banner {
   height: 25rem;
-  width: 960px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -84,7 +86,6 @@ header {
 }
 
 nav {
-  width: 960px;
   padding: 0.75rem 0;
   display: flex;
   align-items: center;
@@ -92,6 +93,9 @@ nav {
   margin: 0 auto;
 }
 
+.menu {
+  visibility: hidden;
+}
 /*Main styles*/
 
 main {
@@ -104,7 +108,6 @@ main {
 }
 
 .products {
-  width: 960px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -133,13 +136,12 @@ main {
 }
 
 .about {
-  width: 960px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding-top: 3rem;
+  padding: 3rem 0 4rem 0;
 }
 
 .details {
@@ -156,9 +158,23 @@ main {
 }
 /*Footer styles*/
 footer {
-  width: 960px;
   height: 5rem;
-  text-align: left;
   margin: 0 auto;
-  padding-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav {
+    visibility: hidden;
+    }
+  .menu {
+    visibility: visible;
+  }
+
+  .product {
+    width: 47%;
+    overflow: hidden;
+  }
 }
