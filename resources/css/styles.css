@@ -167,23 +167,18 @@ footer {
 
 @media only screen and (max-width: 1024px) {
   header, .banner, nav, .products, .about, footer {
-    width: 85%;
+    width: 100%;
   }
   nav span a {
     visibility: hidden;
-    
+
     }
   .menu {
     visibility: visible;
   }
 
-  .products {
-    overflow: hidden;
-  }
   .product {
     width: 47%;
   }
-  .product img {
-    height: 47%;
-  }
+
 }
