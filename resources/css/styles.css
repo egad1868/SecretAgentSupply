@@ -94,7 +94,7 @@ nav {
 }
 
 .menu {
-  visibility: hidden;
+  display: none;
 }
 /*Main styles*/
 
@@ -173,7 +173,7 @@ footer {
     justify-content: center;
   }
   nav span a {
-    visibility: hidden;
+    display: none;
     }
   .menu {
     visibility: visible;
@@ -181,6 +181,51 @@ footer {
 
   .product {
     width: 47%;
+  }
+
+}
+@media only screen and (max-width: 470px) {
+  header, .banner, nav, .products, .about, footer {
+    width: 100%;
+  }
+  nav {
+    justify-content: center;
+  }
+  nav span a {
+    display: none;
+    }
+  .menu {
+    visibility: visible;
+  }
+
+  .product {
+    width: 90%;
+  }
+  .banner {
+    height: 15rem;
+    align-items: flex-end;
+  }
+  .announce {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    width: 100%;
+  }
+
+  .title {
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+  .announcement {
+    font-size: 1rem;
+  }
+  .details {
+    flex-wrap: wrap;
+    width: 90%;
+    padding-bottom: 0.5rem;
+  }
+
+  footer {
+    justify-content: center;
   }
 
 }
