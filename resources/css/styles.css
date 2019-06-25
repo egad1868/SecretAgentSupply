@@ -167,7 +167,7 @@ footer {
 
 @media only screen and (max-width: 1024px) {
   header, .banner, nav, .products, .about, footer {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
   }
   nav {
@@ -177,12 +177,15 @@ footer {
     display: none;
     }
   .menu {
-    visibility: visible;
+    display: inline;
   }
 
   .product {
     width: 47%;
   }
+  .product div:last-of-type {
+  display:none;
+}
 
 }
 @media only screen and (max-width: 470px) {
