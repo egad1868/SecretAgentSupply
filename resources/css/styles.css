@@ -185,19 +185,13 @@ footer {
 
 }
 @media only screen and (max-width: 470px) {
-  header, .banner, nav, .products, .about, footer {
-    width: 100%;
-  }
-  nav {
+
+  header {
     justify-content: center;
   }
-  nav span a {
+  .companyName {
     display: none;
-    }
-  .menu {
-    visibility: visible;
   }
-
   .product {
     width: 90%;
   }
@@ -218,8 +212,10 @@ footer {
   .announcement {
     font-size: 1rem;
   }
-  .details {
+  .about {
     flex-wrap: wrap;
+  }
+  .details {
     width: 90%;
     padding-bottom: 0.5rem;
   }
