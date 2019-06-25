@@ -183,7 +183,7 @@ footer {
   .product {
     width: 47%;
   }
-  .product div:last-of-type {
+  .product > div:last-of-type {
   display:none;
 }
 
